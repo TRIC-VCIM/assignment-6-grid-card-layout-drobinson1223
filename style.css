@@ -1,0 +1,33 @@
+@supports (grid-area: auto) {
+  .card a {display:grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: 50px 50px 50px auto auto auto;
+padding: 10;
+}
+ div.title {
+   grid-column: 1;
+   grid-row: 1;
+ }
+div.director {
+  grid-column: 1;
+  grid-row: 2;
+}
+div.date {
+  grid-column: 1;
+  grid-row: 3/4;
+}
+div.rating {
+  grid-column: 1;
+  grid-row: 5;
+}
+div.summary {
+  grid-column: 1;
+  grid-row: 6;
+}
+div.image {
+  grid-column: 2;
+  grid-row: 1/5;
+
+}
+}
+
